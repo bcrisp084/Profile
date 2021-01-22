@@ -9,3 +9,10 @@
  You get to learn a little about me and the projects i have worked on so far as well as connecting with me additionaly thru email or social media. The nav bar has 3 tabs that will take you to each of the page's
  content. It was a pleasure to work on this project. I feel as though i have learned alot from it and gained 
  alot of experience in seeing what works well together and what doesn't. 
+
+![image](https://user-images.githubusercontent.com/73912705/105559613-a0ca3180-5cdf-11eb-9a9f-852144f9f895.png)
+![image](https://user-images.githubusercontent.com/73912705/105559659-bb040f80-5cdf-11eb-9f7f-013ee18cc50a.png)
+
+
+
+
