@@ -1,11 +1,16 @@
 # Bootstrap-Profile
 
- Good afternoon and welcome to my Bootstrap project. What i have built here is an entire portfolio/Bio 
- using the Bootstrap framework. Using this tool i have created a 3 page layout that includes previous
- works, an about me page and a contact page with a link to my email and certain social media accounts. 
- I made some extra additions to the page to give it a little more style. I added a background to each
- page to help it stand out and capture the users attention. I also chose to style the links to the social 
- media accounts with colored buttons provided from the Bootstrap framework. The page is simple and direct. 
- You get to learn a little about me and the projects i have worked on so far as well as connecting with me additionaly thru email or social media. The nav bar has 3 tabs that will take you to each of the page's
- content. It was a pleasure to work on this project. I feel as though i have learned alot from it and gained 
- alot of experience in seeing what works well together and what doesn't. 
+## Technology
+This application was created using the bootstrap framework and a static HTML page. 
+
+## Info
+This is my professional profile made to demonstrate a few things i have worked on as well as a few links for
+contact. The main page has a bio and profile photo. 
+
+## Link
+https://bcrisp084.github.io/Profile/portfolio.html
+
+
+![image](https://user-images.githubusercontent.com/73912705/105559613-a0ca3180-5cdf-11eb-9a9f-852144f9f895.png)
+![image](https://user-images.githubusercontent.com/73912705/105559659-bb040f80-5cdf-11eb-9f7f-013ee18cc50a.png)
+![image](https://user-images.githubusercontent.com/73912705/105559798-1df5a680-5ce0-11eb-8317-cf72cae6cba3.png)
