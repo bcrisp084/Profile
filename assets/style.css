@@ -40,3 +40,7 @@
   width: 210px;
   text-align: center;
 }
+#projects {
+  background-color: rgb(100, 98, 92);
+  color: white;
+}
