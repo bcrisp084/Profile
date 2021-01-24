@@ -1,118 +1,151 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <title>Portfolio</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css" />
     <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: rgb(186, 201, 223);
-            color: white;
-            text-align: center;
-        }
-
-        body {
-            background: url(./images/lines.jpg);
-            background-size: 100% 100%;
-        }
+      body {
+        background: url(./images/board.jpg);
+        background-size: 100% 100%;
+      }
     </style>
+    <title>Portfolio</title>
+  </head>
 
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand" href="#"><b>Brian Crisp</b> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <section class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home/About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </section>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#" style="color: white"
+        ><b>Brian Crisp</b>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <section class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" style="color: white"
+              >Home/About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="color: white"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html" style="color: white"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </section>
     </nav>
     <section class="container">
-        <section class="row">
-            <section class="col-md-12">
-                <section class="page header">
-                    <h1>Portfolio</h1>
-                    <hr>
-                </section>
-            </section>
+      <section class="row">
+        <section class="col-md-12">
+          <section class="page header">
+            <h1 id="header">Portfolio</h1>
+            <hr />
+          </section>
         </section>
+      </section>
     </section>
     <section class="container">
-        <section class="row">
-            <section class="col-lg-6">
-                <img src="./images/scratch.png" alt="cat game" height="350" width="350">
-                <section class="row">
-                    <section class="col-sm-12"> A scratch activity game
-                    </section>
-                </section>
-            </section>
-            <section class="col-lg-6">
-                <img src="./images/grumpycat.png" alt="grumpy cat" height="350" width="350">
-                <section class="row">
-                    <section class="col-sm-12"> Grumpy cat bio
-                    </section>
-                </section>
-            </section>
+      <section class="row">
+        <section class="col-lg-6">
+          <img
+            src="./images/scratch.png"
+            alt="cat game"
+            height="350"
+            width="350"
+          />
+          <section class="row">
+            <section class="col-sm-12">A scratch activity game</section>
+          </section>
         </section>
+        <section class="col-lg-6">
+          <img
+            src="./images/grumpycat.png"
+            alt="grumpy cat"
+            height="350"
+            width="350"
+          />
+          <section class="row">
+            <section class="col-sm-12">Grumpy cat bio</section>
+          </section>
+        </section>
+      </section>
     </section>
-    <br>
+    <br />
     <section class="container">
-        <section class="row">
-            <section class="col-lg-6">
-                <img src="./images/shaggychicPNG.PNG" alt="grooming wegpage" height="350" width="350">
-                <section class="row">
-                    <section class="col-sm-12"> Initial start of a dog grooming page
-                    </section>
-                </section>
+      <section class="row">
+        <section class="col-lg-6">
+          <img
+            src="./images/shaggychicPNG.PNG"
+            alt="grooming wegpage"
+            height="350"
+            width="350"
+          />
+          <section class="row">
+            <section class="col-sm-12">
+              Initial start of a dog grooming page
             </section>
-            <section class="col-lg-6">
-                <img src="./images/shaggyfirst.PNG" alt="grooming website" height="350" width="350">
-                <section class="row">
-                    <section class="col-sm-12"> First attempt at a framework webpage
-                    </section>
-                </section>
-            </section>
+          </section>
         </section>
+        <section class="col-lg-6">
+          <img
+            src="./images/shaggyfirst.PNG"
+            alt="grooming website"
+            height="350"
+            width="350"
+          />
+          <section class="row">
+            <section class="col-sm-12">
+              First attempt at a framework webpage
+            </section>
+          </section>
+        </section>
+      </section>
     </section>
-    <br>
-    <br>
+    <br />
+    <br />
     <footer class="footer">
-        <p>A project created with <em>Bootstrap.</em></p>
+      <p>A project created with <em>Bootstrap.</em></p>
     </footer>
-
-</body>
-
-
+  </body>
 </html>

@@ -1,0 +1,42 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(100, 98, 92);
+}
+#info {
+  background-color: rgb(231, 229, 229);
+}
+
+.nav-link {
+  color: white;
+}
+#btn {
+  margin-top: 20px;
+  background-color: rgb(33, 84, 192);
+}
+#phone {
+  background-color: rgb(202, 205, 211);
+  color: white;
+}
+#header {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.contact {
+  margin-left: 15px;
+  box-sizing: border-box;
+  background-color: #dc3545;
+  height: 35px;
+  color: white;
+  width: 210px;
+  text-align: center;
+}
