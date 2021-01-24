@@ -11,6 +11,6 @@ contact. The main page has a bio and profile photo.
 https://bcrisp084.github.io/Profile/portfolio.html
 
 
-![image](https://user-images.githubusercontent.com/73912705/105559613-a0ca3180-5cdf-11eb-9a9f-852144f9f895.png)
-![image](https://user-images.githubusercontent.com/73912705/105559659-bb040f80-5cdf-11eb-9f7f-013ee18cc50a.png)
-![image](https://user-images.githubusercontent.com/73912705/105559798-1df5a680-5ce0-11eb-8317-cf72cae6cba3.png)
+![image](https://user-images.githubusercontent.com/73912705/105644826-b79a9080-5e65-11eb-90b8-a15d915840aa.png)
+![image](https://user-images.githubusercontent.com/73912705/105644836-caad6080-5e65-11eb-811c-3b1912c43f35.png)
+![image](https://user-images.githubusercontent.com/73912705/105644847-e284e480-5e65-11eb-8c62-f33f438ebe84.png)
