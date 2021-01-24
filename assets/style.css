@@ -12,7 +12,8 @@
   background-color: rgb(100, 98, 92);
 }
 #info {
-  background-color: rgb(231, 229, 229);
+  background-color: rgb(100, 98, 92);
+  color: white;
 }
 
 .nav-link {
