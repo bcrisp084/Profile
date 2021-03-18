@@ -9,10 +9,10 @@
 }
 
 .navbar {
-  background-color: rgb(100, 98, 92);
+  background-color: rgb(107, 105, 105);
 }
 #info {
-  background-color: rgb(100, 98, 92);
+  background-color: rgb(107, 105, 105);
   color: white;
 }
 
@@ -21,8 +21,9 @@
 }
 #btn {
   margin-top: 20px;
-  background-color: rgb(33, 84, 192);
+  background-color: transparent;
 }
+
 #phone {
   background-color: rgb(202, 205, 211);
   color: white;
@@ -42,6 +43,13 @@
   text-align: center;
 }
 #projects {
-  background-color: rgb(100, 98, 92);
+  background-color: rgb(107, 105, 105);
   color: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+#project-pic {
+  border: solid;
+  border-width: 4px;
 }
